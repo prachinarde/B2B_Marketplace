@@ -36,7 +36,7 @@ router.put('/:id', async (req, res) => {
                 icon: req.body.icon,
                 color: req.body.color,
             },
-            { new: true } // This option returns the updated document
+            { new: true } 
         );
 
         if (!category) {
